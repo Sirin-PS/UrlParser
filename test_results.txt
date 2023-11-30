@@ -1,0 +1,33 @@
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from TestFunctionUrl
+[ RUN      ] TestFunctionUrl.ZeroString
+[       OK ] TestFunctionUrl.ZeroString (0 ms)
+[ RUN      ] TestFunctionUrl.StringOfWhitespaces
+/home/darya/cxx_projects/parser/parser_test.cpp:23: Failure
+Expected equality of these values:
+  msg1
+    Which is: "string is not a URL"
+  msg2
+    Which is: "string is empty"
+[  FAILED  ] TestFunctionUrl.StringOfWhitespaces (0 ms)
+[ RUN      ] TestFunctionUrl.NotValidatedString
+[       OK ] TestFunctionUrl.NotValidatedString (0 ms)
+[ RUN      ] TestFunctionUrl.StringWithWhitespace
+[       OK ] TestFunctionUrl.StringWithWhitespace (0 ms)
+[ RUN      ] TestFunctionUrl.StringForFrim
+[       OK ] TestFunctionUrl.StringForFrim (0 ms)
+[ RUN      ] TestFunctionUrl.LongExample
+[       OK ] TestFunctionUrl.LongExample (0 ms)
+[ RUN      ] TestFunctionUrl.ShortExample
+[       OK ] TestFunctionUrl.ShortExample (0 ms)
+[----------] 7 tests from TestFunctionUrl (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (4 ms total)
+[  PASSED  ] 6 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] TestFunctionUrl.StringOfWhitespaces
+
+ 1 FAILED TEST
+

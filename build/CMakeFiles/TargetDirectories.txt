@@ -1,0 +1,4 @@
+/home/darya/cxx_projects/parser/build/CMakeFiles/URL_Parser.dir
+/home/darya/cxx_projects/parser/build/CMakeFiles/test.dir
+/home/darya/cxx_projects/parser/build/CMakeFiles/edit_cache.dir
+/home/darya/cxx_projects/parser/build/CMakeFiles/rebuild_cache.dir
